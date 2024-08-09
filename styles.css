@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+.container-padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.container-hijo{
+    background-color: aqua;
+}
