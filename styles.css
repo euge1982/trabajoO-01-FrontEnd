@@ -1,5 +1,11 @@
+/*Estilo del body para centrar el div padre*/
 body{
     background-color: black;
+    display: flex;
+    margin: 0;   /*Elimina margenes(predeterminados) del body*/
+    justify-content: center;   /*Centra en horizontal*/
+    align-items: center;   /*Centra en vertical*/
+    height: 100vh;   /*Ocupa todo el alto de la ventana*/
 }
 
 .container-padre{
@@ -7,8 +13,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
+    height: 50vh;
+    width: 50vh;
 }
 
 .container-hijo{
     background-color: aqua;
+    height: 25vh;
+    width: 25vh;
 }
